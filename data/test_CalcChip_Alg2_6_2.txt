@@ -1,4 +1,4 @@
-CalcChip\VeryLongAlg
+CalcChip\Alg2
 15
 6 X 2
 110000
@@ -17,4 +17,4 @@ CalcChip\VeryLongAlg
 000101
 000011
 time :0.002 ms
-memory :18.17 kb
+memory :18.61 kb

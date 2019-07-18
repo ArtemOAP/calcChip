@@ -1,4 +1,4 @@
-CalcChip\FastAlg
+CalcChip\Alg1
 15
 **||||
 *|*|||
@@ -16,4 +16,4 @@ CalcChip\FastAlg
 |||*|*
 ||||**
 time :0.002 ms
-memory :17.43 kb
+memory :17.87 kb
