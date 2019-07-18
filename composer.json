@@ -1,0 +1,18 @@
+{
+    "name": "dev/calc-chip",
+    "description": "test task",
+    "authors": [
+        {
+            "name": "Artem",
+            "email": "lyadvin@mail.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CalcChip\\":"src/"
+        }
+    }
+}
