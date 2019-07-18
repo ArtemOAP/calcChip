@@ -21,7 +21,7 @@ class FileSys implements Output
 
     public function __destruct()
     {
-     // fclose($this->res);
+      fclose($this->res);
     }
 
 
