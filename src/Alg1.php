@@ -12,6 +12,7 @@ class Alg1 implements Alg
     protected $chipCount;
     protected $store = [];
     protected $out;
+    protected $count;
 
     public static function getInstance(int $fieldsCount, int $chipCount, Output $out): self
     {
@@ -32,9 +33,11 @@ class Alg1 implements Alg
         $this->out->Print(self::class);
     }
 
-    public function run(): void
+    public function run(): int
     {
         $this->ShiftChips(0, 0);
+
+        return $this->count;
 
     }
 
@@ -46,6 +49,7 @@ class Alg1 implements Alg
     {
         if ($pos == $this->chipCount) {
             $this->out->Print($this->build());
+            $this->count++;
         } else {
 
             for ($i = $sh; $i < $this->fieldsCount; ++$i) {

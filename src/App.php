@@ -13,12 +13,11 @@ class App
         $lib   = new Lib();
         $count = $lib->calcCombinationsFormula($fieldsCount, $chipCount);
         if ($count <= 10) {
-            $output->Print(self::ER_TEXT);
-
-            return;
+           throw new \ErrorException(self::ER_TEXT);
         }
         $output->Print($count);
-        $alg->run();
+        $countTest = $alg->run();
+        $output->Print($count .' = '.$countTest);
 
     }
 

@@ -5,6 +5,6 @@ namespace CalcChip;
 
 interface Alg
 {
-    public function run():void ;
+    public function run():int ;
 
 }
